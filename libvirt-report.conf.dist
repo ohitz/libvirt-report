@@ -1,0 +1,14 @@
+#
+# libvirt-report Configuration File
+#
+$clusters = {
+  cluster1 => {
+    order => 1,
+    members => [ "host1.domain.com" ]
+  },
+  cluster2 => {
+    order => 2,
+    members => [ "host2a.domain.com", "host2b.domain.com" ]
+  },
+};
+
